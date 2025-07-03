@@ -80,6 +80,3 @@ To deploy this Django-based secure file-sharing backend to production, I would f
    - Use tools like **Sentry** or **Prometheus** for monitoring.
    - Log errors and user activity securely.
 
-```bash
-touch DEPLOYMENT.md
-
