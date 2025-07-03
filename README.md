@@ -72,20 +72,13 @@ To deploy this Django-based secure file-sharing backend to production, I would f
    - Deploy Celery workers and connect them to a **Redis** instance.
    - Optionally use **supervisord** or **systemd** to keep workers alive.
 
-6. **Email (SMTP)**
-   - Use a reliable email provider like **SendGrid** or **Mailgun** for production email verification.
-
-7. **Hosting Options**
+6. **Hosting Options**
    - Deploy on **Render**, **DigitalOcean**, **AWS EC2**, or **Heroku**.
    - Use HTTPS with Let's Encrypt or Cloudflare for secure file transfers.
 
-8. **Logging & Monitoring**
+7. **Logging & Monitoring**
    - Use tools like **Sentry** or **Prometheus** for monitoring.
    - Log errors and user activity securely.
-
----
-
-### ✅ Optional: Add a `deploy.md` file (if they explicitly request it)
 
 ```bash
 touch DEPLOYMENT.md
