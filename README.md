@@ -1,4 +1,4 @@
-# EZ-Assessment
+# 📂 EZ-Assessment
 
 # Secure File Sharing System – Backend API
 
